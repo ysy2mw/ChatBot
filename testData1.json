@@ -1,0 +1,342 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "how many",
+        "intent": "volume_search",
+        "entities": []
+      },
+      {
+        "text": "what's the number of SNAP exchange",
+        "intent": "volume_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "SNAP",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hellow",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "how about the volume",
+        "intent": "volume_search",
+        "entities": []
+      },
+      {
+        "text": "what about the volume",
+        "intent": "volume_search",
+        "entities": []
+      },
+      {
+        "text": "tell me the volume of APPL",
+        "intent": "volume_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "APPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "tell me the cap about APPL",
+        "intent": "cap_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "APPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for aapl's share",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "aapl",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "how about the share of SNAP",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "SNAP",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "show me TSLA's stock",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "search for share of APPL",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "APPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "tsla",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "tsla",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "AAPL",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "AAPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "stock of YELP",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "YELP",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "APPL stock",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "APPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "what about TSLA's stock.",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "tell me something about TSLA stock",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "tell me something about A",
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 25,
+            "value": "A",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "how much",
+        "intent": "price_search",
+        "entities": []
+      },
+      {
+        "text": "how much is TSLA price",
+        "intent": "price_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "show me TSLA's price",
+        "intent": "price_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "what about APPL's price",
+        "intent": "price_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "APPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "search for the price",
+        "intent": "price_search",
+        "entities": []
+      },
+      {
+        "text": "search for the price of APPL",
+        "intent": "price_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "APPL",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "show me the volume of A",
+        "intent": "volume_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 23,
+            "value": "A",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "what about the market value of AA",
+        "intent": "cap_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 33,
+            "value": "AA",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "how about the cap of GOOG",
+        "intent": "cap_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "GOOG",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "what is the cap",
+        "intent": "cap_search",
+        "entities": []
+      },
+      {
+        "text": "market cap",
+        "intent": "cap_search",
+        "entities": []
+      },
+      {
+        "text": "tell me the cap of TSLA",
+        "intent": "cap_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "market capitalization",
+        "intent": "cap_search",
+        "entities": []
+      },
+      {
+        "text": "the cap",
+        "intent": "cap_search",
+        "entities": []
+      },
+      {
+        "text": "show me the cap of APPL",
+        "intent": "cap_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "APPL",
+            "entity": "company"
+          }
+        ]
+      }
+    ]
+  }
+}
